@@ -35,7 +35,7 @@ def move_turtle():
 
 
 def detectCollision(car):
-    if player.distance(car) < 20:
+    if player.distance(car) <= 20:
         return True
     else:
         return False
@@ -49,7 +49,6 @@ def collisionDetector(carManager):
 
 
 screen.listen()
-
 
 def game():
     global level

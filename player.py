@@ -12,8 +12,6 @@ class Player(turtle.Turtle):
 
     def go_up(self):
         self.forward(0.1)
-        print("go up")
 
     def go_down(self):
         self.backward(0.1)
-        print("go down")
